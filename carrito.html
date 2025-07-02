@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Carrito</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="nav-link">🏠 Inicio</a>
+    <a href="carrito.html" class="nav-link" id="carrito-btn">
+      🛒 Carrito <span id="carrito-contador">(0)</span>
+    </a>
+  </header>
+
+  <h1>Carrito de Compras</h1>
+  <div id="carrito-container" class="grid"></div>
+
+  <div class="botones-carrito">
+    <button id="vaciar">🗑 Vaciar carrito</button>
+    <button id="finalizar">✅ Finalizar compra</button>
+    <a href="index.html">⬅️ Volver al Home</a>
+  </div>
+
+  <script src="carrito.js"></script>
+</body>
+</html>
